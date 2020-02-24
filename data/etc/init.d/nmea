@@ -1,0 +1,6 @@
+#!/bin/sh
+
+cd /usr/src/app
+sleep 120
+echo "Starting daemon -" `date` >> /data/logs/nmea.log
+/usr/bin/python nmea.py > /dev/null 2>> /data/logs/nmea.log
