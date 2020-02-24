@@ -1,0 +1,2 @@
+::respawn:/bin/sh /etc/init.d/accelerometer
+::respawn:/bin/sh /etc/init.d/nmea
