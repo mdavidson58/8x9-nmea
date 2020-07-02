@@ -32,10 +32,10 @@ except socket.error, errmsg:
 
 # Open accelerometer serial port
 try:
-    ser = serial.Serial('/dev/ttyS2')
+    ser = serial.Serial('/dev/ttyS4')
 
 except serial.SerialException as ex:
-    sys.stderr.write('Error opening /dev/ttyS2\n')
+    sys.stderr.write('Error opening /dev/ttyS4\n')
     sys.exit()
 
 while 1:
